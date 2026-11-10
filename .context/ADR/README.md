@@ -90,6 +90,9 @@ Who authors: a human QA architect / lead directly, **or** an AI workflow that de
 | [ADR-0025](./ADR-0025-project-yaml-values-only-schema-documents.md) | `.agents/project.yaml` carries values only; `.agents/project.schema.yaml` is the documented template, its values synced down from the yaml | Accepted | — | — |
 | [ADR-0026](./ADR-0026-pi-as-a-declared-harness.md) | Pi joins `HARNESSES` under the same gates; its detection reads two files only, a secret-only block stands in for a deny list, and the session-naming claim of ADR-0024 is corrected | Accepted | — | — |
 
+| [ADR-0027](./ADR-0027-db-integration-tests-run-against-a-real-supabase.md) | The system under test proves isolation with DB-integration tests against a real Supabase (discovered) | Accepted | — | — |
+| [ADR-0028](./ADR-0028-data-testid-is-the-selector-contract.md) | `data-testid` is the selector contract with the system under test (discovered) | Accepted | — | — |
+
 > Keep this table in sync whenever an ADR is added or its status changes. It is the fast index every session reads first.
 
 ---
